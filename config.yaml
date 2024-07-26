@@ -1,0 +1,11 @@
+
+path: 'C:\Users\harsh\OneDrive\Desktop\craters' # dataset root dir
+train: 'C:\Users\harsh\OneDrive\Desktop\craters\images'  # train images (relative to 'path')
+val: 'C:\Users\harsh\OneDrive\Desktop\craters\labels' # val images (relative to 'path')
+
+# Classes
+names:
+  0: craters
+
+# Save the trained model's weights
+model.save: 'C:\Users\harsh\OneDrive\Desktop\craters'
